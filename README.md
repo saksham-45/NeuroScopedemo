@@ -1,7 +1,5 @@
 # NeuroScope: Real-Time Emotion Detection
 
-![NeuroScope Screenshot](https://placehold.co/800x400/D1D5DB/4B5563?text=NeuroScope+App+Screenshot+Placeholder)
-*(Replace the placeholder above with an actual screenshot of your application)*
 
 NeuroScope is a desktop application built with Python and PyQt5 that performs real-time emotion detection using a computer's webcam feed. It leverages MTCNN for accurate face detection and a pre-trained TensorFlow/Keras model to classify facial expressions into one of seven emotions: Angry, Disgust, Fear, Happy, Sad, Surprise, or Neutral. Detected emotions and their confidence scores are logged to a local SQLite database and visualized in a real-time graph.
 
